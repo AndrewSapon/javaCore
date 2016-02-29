@@ -2,7 +2,7 @@ package clones;
 
 /**
    При клонировании автомобилей у них изначально была ссылка на один двигатель общая
-   А при реализации  классом Engine интерфейса Clonable, и
+   А при реализации  классом Engine интерфейса Cloneable, и
 
    @Override public Car clone() throws CloneNotSupportedException{
    Car car1 = (Car)super.clone();
