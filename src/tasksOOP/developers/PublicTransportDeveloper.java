@@ -3,8 +3,7 @@ package tasksOOP.developers;
 /**
  * Created by Andrew on 30.12.2015.
  */
-public class PublicTransportDeveloper
-{
+public class PublicTransportDeveloper {
 
     private String name;
     private String cityWhereHeLives;
@@ -15,41 +14,33 @@ public class PublicTransportDeveloper
     private double workHours;
     private double hoursToWork;
 
-    PublicTransportDeveloper(){}
+    PublicTransportDeveloper() {
+    }
 
-    public String getName()
-    {
+    public String getName() {
 
         return name;
     }
 
-    public String getCityWhereHeLives()
-    {
+    public String getCityWhereHeLives() {
         return cityWhereHeLives;
     }
 
-    public String getCityWhereHeWorks()
-    {
+    public String getCityWhereHeWorks() {
         return cityWhereHeWorks;
     }
 
-    public void setName(String name)
-    {
+    public void setName(String name) {
         this.name = name;
     }
 
-    public void setCityWhereHeLives(String cityWhereHeLives)
-    {
+    public void setCityWhereHeLives(String cityWhereHeLives) {
         this.cityWhereHeLives = cityWhereHeLives;
     }
 
-    public void setCityWhereHeWorks(String cityWhereHeWorks)
-    {
+    public void setCityWhereHeWorks(String cityWhereHeWorks) {
         this.cityWhereHeWorks = cityWhereHeWorks;
     }
-
-
-
 
 
     public int statusOfTheWeather;
@@ -60,14 +51,13 @@ public class PublicTransportDeveloper
     */
 
 
-    public void earnings(int statusOfTheWeather)
-    {
-        if (statusOfTheWeather == 0){
-            System.out.println("Работаю всего " + (workHours =  8) + " часов");
+    public void earnings(int statusOfTheWeather) {
+        if (statusOfTheWeather == 0) {
+            System.out.println("Работаю всего " + (workHours = 8) + " часов");
             System.out.println("Время в дороге +" + (hoursToWork = 9 - workHours));
             money = (coastFor1Hour * 8) - costForTransport;
             System.out.println("Зарабатываю за день " + money + " тугриков");
-        } else if (statusOfTheWeather == 2){
+        } else if (statusOfTheWeather == 2) {
             System.out.println("Работаю всего " + (workHours = 5) + " часов");
             System.out.println("Время в дороге +" + (hoursToWork = 9 - workHours));
             money = (coastFor1Hour * 5) - costForTransport;
@@ -79,8 +69,8 @@ public class PublicTransportDeveloper
             System.out.println("Зарабатываю за день " + money + " тугриков");
         }
     }
-    public void printAboutMe()
-    {
+
+    public void printAboutMe() {
         System.out.println("Меня зовут " + name + ". Я живу в городе " + cityWhereHeLives + " и езжу на работу в " + cityWhereHeWorks);
     }
 }
