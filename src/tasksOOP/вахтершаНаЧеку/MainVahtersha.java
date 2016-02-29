@@ -33,7 +33,6 @@ public class MainVahtersha
             try
             {
                 Scanner scan = new Scanner(System.in);
-
                 System.out.println("Введите цифру: ");
                 int k = scan.nextInt();
                 System.out.println("Введите колличество людей: ");
@@ -60,13 +59,10 @@ public class MainVahtersha
                     System.out.println("Выход из программы");
                     break;
                 }
-
             }
             catch (InputMismatchException e)
             {
                 System.out.println("Вы ввели не число, как вам не стыдно?");
-
-
             }
         }
     }
