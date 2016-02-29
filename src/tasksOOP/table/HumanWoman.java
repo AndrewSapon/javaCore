@@ -1,7 +1,10 @@
 package tasksOOP.table;
 
-/**
- * Created by Andrew on 29.02.2016.
- */
-public class HumanWoman {
+public class HumanWoman extends AbstractHuman {
+    private String mail = "Женщина";
+
+    @Override
+    public String getMail() {
+        return mail;
+    }
 }

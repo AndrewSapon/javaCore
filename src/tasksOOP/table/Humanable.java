@@ -1,7 +1,13 @@
 package tasksOOP.table;
 
-/**
- * Created by Andrew on 29.02.2016.
- */
 public interface Humanable {
+    public void takeGlass(AbstractGlass newGlass);
+
+    public void putGlass();
+
+    public void pourWaterOnTable(AbstractTable table);
+
+    public void fillGlass();
+
+    public void printAboutMe();
 }

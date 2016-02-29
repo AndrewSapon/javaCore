@@ -1,7 +1,9 @@
 package tasksOOP.table;
 
-/**
- * Created by Andrew on 29.02.2016.
- */
-public class GlassSquare {
+public class GlassSquare extends AbstractGlass {
+    private String view = "Квадратный";
+
+    public String getView() {
+        return view;
+    }
 }

@@ -1,7 +1,10 @@
 package tasksOOP.table;
 
-/**
- * Created by Andrew on 29.02.2016.
- */
-public class GlassCircle {
+public class GlassCircle extends AbstractGlass {
+    private String view = "Круглый";
+
+    public String getView() {
+        return view;
+    }
 }
+
