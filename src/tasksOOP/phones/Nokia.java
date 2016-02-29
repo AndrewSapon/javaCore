@@ -1,7 +1,9 @@
 package tasksOOP.phones;
 
-/**
- * Created by Andrew on 29.02.2016.
- */
-public class Nokia {
+public class Nokia extends Phone
+{
+    public Nokia(String number, boolean camera, int sideSize)
+    {
+        super(number, camera, sideSize);
+    }
 }

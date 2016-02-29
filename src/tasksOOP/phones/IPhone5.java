@@ -1,7 +1,9 @@
 package tasksOOP.phones;
 
-/**
- * Created by Andrew on 29.02.2016.
- */
-public class IPhone5 {
+public class IPhone5 extends IPhone
+{
+    public IPhone5(String number, boolean camera, int sideSize, int appleId)
+    {
+        super(number, camera, sideSize, appleId);
+    }
 }

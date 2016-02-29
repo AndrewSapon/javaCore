@@ -1,7 +1,9 @@
 package tasksOOP.phones;
 
-/**
- * Created by Andrew on 29.02.2016.
- */
-public class Samsung {
+public class Samsung extends Phone
+{
+    public Samsung (String number, boolean camera, int sideSize){
+        super(number, camera, sideSize);
+    }
 }
+
