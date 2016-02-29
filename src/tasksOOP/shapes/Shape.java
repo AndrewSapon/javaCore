@@ -2,9 +2,9 @@ package tasksOOP.shapes;
 
 
 public abstract class Shape {
-    private double xPos;
-    private double yPos;
-    private double sideA;
+    private double xPos; // координата по Х
+    private double yPos; // координата по Y
+    private double sideA;   // сторона
 
     public Shape() {}
     public Shape(double sideA) {
