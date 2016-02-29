@@ -3,8 +3,7 @@ package tasksOOP.developers;
 /**
  * Created by Andrew on 30.12.2015.
  */
-public class CyclDeveloper
-{
+public class CyclDeveloper {
 
     private String name;
     private String cityWhereHeLives;
@@ -15,37 +14,31 @@ public class CyclDeveloper
     private double workHours;
     private double hoursToWork;
 
-    CyclDeveloper(){}
+    CyclDeveloper() {
+    }
 
 
-
-    public String getName()
-    {
+    public String getName() {
         return name;
     }
 
-    public String getCityWhereHeLives()
-    {
+    public String getCityWhereHeLives() {
         return cityWhereHeLives;
     }
 
-    public String getCityWhereHeWorks()
-    {
+    public String getCityWhereHeWorks() {
         return cityWhereHeWorks;
     }
 
-    public void setName(String name)
-    {
+    public void setName(String name) {
         this.name = name;
     }
 
-    public void setCityWhereHeLives(String cityWhereHeLives)
-    {
+    public void setCityWhereHeLives(String cityWhereHeLives) {
         this.cityWhereHeLives = cityWhereHeLives;
     }
 
-    public void setCityWhereHeWorks(String cityWhereHeWorks)
-    {
+    public void setCityWhereHeWorks(String cityWhereHeWorks) {
         this.cityWhereHeWorks = cityWhereHeWorks;
     }
 
@@ -57,14 +50,13 @@ public class CyclDeveloper
     */
 
 
-    public void earnings(int statusOfTheWeather)
-    {
-        if (statusOfTheWeather == 0){
-            System.out.println("Работаю всего " + (workHours =  7.5) + " часов");
+    public void earnings(int statusOfTheWeather) {
+        if (statusOfTheWeather == 0) {
+            System.out.println("Работаю всего " + (workHours = 7.5) + " часов");
             System.out.println("Время в дороге +" + (hoursToWork = 9 - workHours));
             money = (coastFor1Hour * 7.5) - costForTransport;
             System.out.println("Зарабатываю за день " + money + " тугриков");
-        } else if (statusOfTheWeather == 2){
+        } else if (statusOfTheWeather == 2) {
             System.out.println("Работаю всего " + (workHours = 3) + " часов");
             System.out.println("Время в дороге +" + (hoursToWork = 9 - workHours));
             money = (coastFor1Hour * 3) - costForTransport;
@@ -76,8 +68,8 @@ public class CyclDeveloper
             System.out.println("Зарабатываю за день " + money + " тугриков");
         }
     }
-    public void printAboutMe()
-    {
+
+    public void printAboutMe() {
         System.out.println("Меня зовут " + name + ". Я живу в городе " + cityWhereHeLives + " и езжу на работу в " + cityWhereHeWorks);
     }
 }
