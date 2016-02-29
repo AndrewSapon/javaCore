@@ -1,41 +1,33 @@
 package tasksOOP.plane;
 
-/**
- * Created by Andrew on 29.12.2015.
- */
-public class Plane
-{
+
+public class Plane {
     private String planeType;
     private String airLinesType;
-    public int planeStatus;
+    private int planeStatus;
     //  1 - /\ - вверху
     // 0 - \/ - внизу
 
 
-    public void setPlaneType(String planeType)
-    {
+    public void setPlaneType(String planeType) {
         this.planeType = planeType;
     }
 
-    public void setAirLinesType(String airLinesType)
-    {
+    public void setAirLinesType(String airLinesType) {
         this.airLinesType = airLinesType;
     }
 
-    public String getPlaneType()
-    {
+    public String getPlaneType() {
 
         return planeType;
     }
 
-    public String getAirLinesType()
-    {
+    public String getAirLinesType() {
         return airLinesType;
     }
 
-    public void up()
-    {
-        if (planeStatus == 1){
+    public void up() {
+        if (planeStatus == 1) {
             planeStatus = 0;
             System.out.println("Я сел");
         } else {
@@ -43,9 +35,8 @@ public class Plane
         }
     }
 
-    public void down()
-    {
-        if (planeStatus == 0){
+    public void down() {
+        if (planeStatus == 0) {
             planeStatus = 1;
             System.out.println("Я взлетел");
         } else {
@@ -54,10 +45,9 @@ public class Plane
 
     }
 
-    public void printAboutMe()
-    {
-        String [] operationNames = {"0: Взлететь", "1: Сесть"};
-        for (String elem: operationNames)
+    public void printAboutMe() {
+        String[] operationNames = {"0: Взлететь", "1: Сесть"};
+        for (String elem : operationNames)
             System.out.println(elem);
 
         if (planeStatus == 0) System.out.println(" Текущий статус - down");
