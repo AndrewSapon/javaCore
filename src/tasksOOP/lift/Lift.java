@@ -1,8 +1,5 @@
 package tasksOOP.lift;
 
-/**
- * Created by Andrew on 29.12.2015.
- */
 
 class Lift {
     int curFloor = 1; //Этаж online
