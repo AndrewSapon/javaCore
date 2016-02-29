@@ -30,7 +30,7 @@ public class MainDeveloper {
     }
 
     public void start() {
-        // Создаем обьект класса Программист - велосипедист
+        // Создаем экземпляр класса Программист - велосипедист
         CyclDeveloper cyclDeveloper = new CyclDeveloper();
         cyclDeveloper.setName("Вася - Велосипедист");
         cyclDeveloper.setCityWhereHeLives("Бровары");
@@ -39,7 +39,7 @@ public class MainDeveloper {
         cyclDeveloper.getCityWhereHeLives();
         cyclDeveloper.getCityWhereHeWorks();
 
-        // Создаем обьект класса Программист - мотоциклист
+        // Создаем экземпляр класса Программист - мотоциклист
         MotoDeveloper motoDeveloper = new MotoDeveloper();
         motoDeveloper.setName("Гена - Мотоциклист");
         motoDeveloper.setCityWhereHeLives("Бровары");
@@ -48,7 +48,7 @@ public class MainDeveloper {
         motoDeveloper.getCityWhereHeLives();
         motoDeveloper.getCityWhereHeWorks();
 
-        // Создаем обьект класса Программист - на общ. транспорте
+        // Создаем экземпляр класса Программист - на общ. транспорте
         PublicTransportDeveloper publicTransportDeveloper = new PublicTransportDeveloper();
         publicTransportDeveloper.setName("Семен - нищеброд");
         publicTransportDeveloper.setCityWhereHeLives("Бровары");
@@ -57,7 +57,7 @@ public class MainDeveloper {
         publicTransportDeveloper.getCityWhereHeLives();
         publicTransportDeveloper.getCityWhereHeWorks();
 
-
+        // консольное меню
         String[] weatherTypes = {"0: Очень сухая погода", "1: Обычная погода", "2: Дождливая погода", "3: Выход из программы"};
         for (String elem : weatherTypes)
             System.out.println(elem);
