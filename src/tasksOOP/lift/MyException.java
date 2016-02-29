@@ -1,7 +1,13 @@
 package tasksOOP.lift;
 
 /**
- * Created by Andrew on 29.02.2016.
+ * Created by Андрей on 06.01.2016.
  */
-public class MyException {
+
+class MyException extends Exception{
+    MyException(String s){
+        super(s);
+    }
 }
+
+
