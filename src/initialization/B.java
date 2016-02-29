@@ -1,18 +1,16 @@
 package initialization;
 
 
-public class B extends A
-{
+public class B extends A {
     {
         System.out.println("1B");
     }
-    static
-    {
+
+    static {
         System.out.println("2B");
     }
 
-    public B()
-    {
+    public B() {
         System.out.println("3B");
     }
 

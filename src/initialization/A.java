@@ -1,18 +1,16 @@
 package initialization;
 
 
-public class A
-{
+public class A {
     {
         System.out.println("1A");
     }
-    static
-    {
+
+    static {
         System.out.println("2A");
     }
 
-    public A()
-    {
+    public A() {
         System.out.println("3A");
     }
 }
