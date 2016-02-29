@@ -5,7 +5,7 @@ public abstract class Phone {
     private String number;
     private boolean camera; // наличие камеры
     private int sideSize; // диагональ экрана
-    public static int countPhones; 
+    public static int countPhones;
 
     // call(String number) - выводит на экран "телефон такой-то(номер+марка) звонит такому-то(номер+марка)"
     public void call(Phone ph) {
@@ -43,6 +43,15 @@ public abstract class Phone {
     }
     public void setIntSize(int sideSize) {
         this.sideSize = sideSize;
+    }
+
+    @Override
+    public String toString() {
+        return "Phone{" +
+                "number='" + number + '\'' +
+                ", camera=" + camera +
+                ", sideSize=" + sideSize +
+                '}';
     }
 }
 
