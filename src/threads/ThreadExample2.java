@@ -1,7 +1,7 @@
 package threads;
 
 /**
- * Позволяет понаблюдать за поведение потоков
+  Позволяет понаблюдать за поведение потоков
  */
 public class ThreadExample2 {
     public static class Test extends Thread {
