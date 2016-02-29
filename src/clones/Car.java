@@ -3,7 +3,7 @@ package clones;
 /**
    При клонировании автомобилей у них изначально была ссылка на один двигатель общая
    А при реализации  классом Engine интерфейса Clonable, и
- 
+
    @Override public Car clone() throws CloneNotSupportedException{
    Car car1 = (Car)super.clone();
    car1.engine = engine.clone();
@@ -37,7 +37,7 @@ public class Car implements Cloneable {
         if (car1.getEngine() == car2.getEngine())
             System.out.println("двигатель на двоих");
         else
-            System.out.println("у авто свои двигатели");
+            System.out.println("у каждого авто свой двигатель");
     }
 
     @Override
