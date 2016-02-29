@@ -1,7 +1,19 @@
 package initialization;
 
-/**
- * Created by Andrew on 29.02.2016.
- */
-public class A {
+
+public class A
+{
+    {
+        System.out.println("1A");
+    }
+    static
+    {
+        System.out.println("2A");
+    }
+
+    public A()
+    {
+        System.out.println("3A");
+    }
 }
+

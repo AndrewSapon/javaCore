@@ -1,7 +1,20 @@
 package initialization;
 
-/**
- * Created by Andrew on 29.02.2016.
- */
-public class B {
+
+public class B extends A
+{
+    {
+        System.out.println("1B");
+    }
+    static
+    {
+        System.out.println("2B");
+    }
+
+    public B()
+    {
+        System.out.println("3B");
+    }
+
 }
+
