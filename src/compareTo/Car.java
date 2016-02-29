@@ -1,8 +1,6 @@
 package compareTo;
 
 /**
- * Created by Andrew on 20.02.2016.
-
 
  import java.util.Comparator;
 
