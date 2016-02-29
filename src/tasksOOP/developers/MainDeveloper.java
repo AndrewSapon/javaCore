@@ -29,7 +29,7 @@ public class MainDeveloper {
         mainDeveloper.start();
     }
 
-    public void start() throws InputMismatchException {
+    public void start() {
         // Создаем обьект класса Программист - велосипедист
         CyclDeveloper cyclDeveloper = new CyclDeveloper();
         cyclDeveloper.setName("Вася - Велосипедист");
