@@ -12,7 +12,7 @@ import java.util.Arrays;
    есть массив и мы делаем временную таблицу table (временный массив) и считаем кол-во повторений каждого эл-та
    мы должны определить max значение
    6) Хоара(Быстрая сортировка) QuickSort
-   7) Слияния MargeSort
+   7) Слияния MergeSort
  */
 public class SortExamples {
     public static void main(String... args) {
