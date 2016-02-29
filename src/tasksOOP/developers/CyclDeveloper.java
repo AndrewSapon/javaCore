@@ -1,8 +1,6 @@
 package tasksOOP.developers;
 
-/**
- * Created by Andrew on 30.12.2015.
- */
+
 public class CyclDeveloper {
 
     private String name;

@@ -1,9 +1,7 @@
 package tasksOOP.developers;
 
 
-/**
- * Created by Andrew on 30.12.2015.
- */
+
 public class MotoDeveloper {
 
     private String name;
