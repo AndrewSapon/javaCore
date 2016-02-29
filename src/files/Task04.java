@@ -42,13 +42,13 @@ public class Task04 {
                 mainArray[i][1] = "Значение переменной: " + array[i].substring((array[i].indexOf("[") + 1), (array[i].indexOf("]")));
             }
         }
+
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 2; j++) {
                 System.out.printf("%7s", mainArray[i][j]);
             }
             System.out.println();
         }
-
         return mainArray;
     }
 }
